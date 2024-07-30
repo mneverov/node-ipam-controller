@@ -3,7 +3,7 @@
 replicaCount: 1
 
 leaderElection:
-  enabled: false
+  enabled: true
 
 image:
   repository: registry.k8s.io/node-ipam-controller
